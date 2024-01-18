@@ -1,0 +1,9 @@
+ public static void () {
+        Integer[] arr = createArray(8, 1, 50);
+
+        outputArray(arr, 1);
+        for (int i = 0; i < arr.length; i = i + 2) {
+            arr[i] = 0;
+        }
+        outputArray(arr, 1);
+    }
